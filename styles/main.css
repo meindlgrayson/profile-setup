@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-weight: lighter;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+section {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 760px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.text-entry {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.prof-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.prof-img input {
+  padding-left: 1%;
+}
+
+.form-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  padding: 0 18px;
+}
+
+.radio {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.radio label {
+  padding-right: 8%;
+}
+
+.tick {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tick label {
+  padding-left: 5px;
+}
+
+section > legend {
+  align-self: center;
+  margin-bottom: 5%;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+input[type="text"] {
+    height: 35px;
+    font-size: 20px;
+}
+
+.field label {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/*.form-bottom label{
+  padding: 10px;
+}*/
+
+.input-label {
+  padding-bottom: 2%;
+}
+
+.prof-img label {
+  padding-left: 0;
+}
+
+#submit {
+  width: 47%;
+  height: 80%;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+input[type="file"] {
+  font-size: 18px;
+}
